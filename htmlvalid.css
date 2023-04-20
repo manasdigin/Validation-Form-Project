@@ -1,0 +1,40 @@
+body{
+    background: rgb(34,193,195);
+    background-color: palegreen;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#form{
+    width:300px;
+    margin:20vh auto 0 auto;
+    background-color: whitesmoke;
+    border: radius 5px;
+    padding:20px;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+#form button{
+    width: 100%;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+
+
+.input-group .error{
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+}
+
+.input-group.success input{
+    border-color: #0cc477;
+}
+
+.input-group.error input{
+    border-color:rgb(206, 67, 67);
+}
